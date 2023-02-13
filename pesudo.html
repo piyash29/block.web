@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1:hover{
+            color: skyblue;
+            background-color: cadetblue;
+            font-weight: 700;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: crimson;
+        }
+        li:first-child{
+            color: rgb(34, 0, 255);
+        }
+        li:last-child{
+            background-color: rgb(253, 219, 0);
+         
+        }
+        li:nth-child(2n){
+            color: brown;
+        }
+        li:nth-child(2n+1){
+            background-color: darkgray;
+        }
+        h3::before{
+            content:"Hello ";
+        }
+        h3::after{
+            content:" Gello";
+            background-color: darkkhaki;
+        }
+        .special::after{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/index.html">google a jao</a>
+    <a href="https://www.underconsideration.com/brandnew
+    ">never visited</a>
+    <a href="https://github.com/">github a jao</a>
+    <br>
+    <h3>middle size header-1</h3>
+    <h3>middle size header-2</h3>
+    <h3>middle size header-3</h3>
+    <h3  class="special">middle size header-4</h3>
+    <h3>middle size header-5</h3>
+    <h3>middle size header-6</h3>
+    <ul>
+        <li>Piyas</li>
+        <li>Rafsan</li>          
+        <li>Sijan </li>
+        <li>Komol</li>
+        <li>Provat</li>
+        <li>Totul</li>
+        <li>JOY</li>
+    </ul>
+    
+</body>
+</html>
